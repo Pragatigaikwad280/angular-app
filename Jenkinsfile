@@ -1,6 +1,5 @@
 stage('Build container image') {
- //Build the container image with a tag (qualys:sample
-in this case)
+ //Build the container image with a tag (qualys:sample in this case)
  steps {
  dir("dockerbuild") {
  sh "docker build -t qualys:sample . >
